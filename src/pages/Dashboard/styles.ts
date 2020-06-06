@@ -90,3 +90,18 @@ export const Repositories = styled.div`
     }
   }
 `;
+
+export const Error = styled.div`
+  margin: 16px 0px;
+  flex: 1;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  transition: transform 0.2s linear;
+  font-size: 20px;
+  color: #3d3d4d;
+`;
